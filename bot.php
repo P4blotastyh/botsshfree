@@ -45,7 +45,7 @@ switch ($tlg->Text ()){
 		'text' => $textoMsg->start,
 		'parse_mode' => 'html',
 		'reply_markup' => $tlg->buildInlineKeyBoard ([
-			[$tlg->buildInlineKeyboardButton ('🇧🇷 TESTE MINERDNET 24HRS 🇧🇷', null, '/sshgratis')]
+			[$tlg->buildInlineKeyboardButton ('🇧🇷 TESTE GREAT 3HRS 🇧🇷', null, '/sshgratis')]
 		])
 	]);
 
@@ -88,7 +88,7 @@ switch ($tlg->Text ()){
 
 		exec ('./gerarusuario.sh '.$usuario.' '.$senha.' 1 1');
 
-		$textoSSH="🇧🇷 Conta SSH criada baixe na playstore MinerdNet ;)\r\n\r\n<b>Servidor:</b> <code>".$ip."</code>\r\n<b>Usuario:</b> <code>".$usuario."</code>\r\n<b>Senha:</b> <code>".$senha."</code>\r\n<b>Logins:</b> 1\r\n<b>Validade:</b> ".date ('d/m', strtotime('+1 day'))."\r\n\r\n🤙 Cortesia do @canalminerdso";
+		$textoSSH="🇧🇷 Conta SSH criada;)\r\n\r\n<b>Servidor:</b> <code>".$ip."</code>\r\n<b>Usuario:</b> <code>".$usuario."</code>\r\n<b>Senha:</b> <code>".$senha."</code>\r\n<b>Logins:</b> 1\r\n<b>Validade:</b> ".date ('d/m', strtotime('+1 days'))."\r\n\r\n🤙 Cortesia do @Pablo_xyz";
 
 		$redis->setex ($tlg->UserID (), 43200, 'true'); //define registro para ser guardado por 12h
 
