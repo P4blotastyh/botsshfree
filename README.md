@@ -2,7 +2,7 @@ __Você precisa criar um bot no [@botfather](https://t.me/botfather) para fazer 
 
 Instalação simples, apenas execute esse codigo a sua vps para que o seu bot começe a funcionar, durante a instalação será preciso fornescer algumas informações que o bot ira precisar.
 
-```wget https://github.com/P4blotastyh/botsshfree.git -O iniciar.sh; chmod +x iniciar.sh; ./iniciar.sh```
+```wget https://raw.githubusercontent.com/minerdso/botsshfree/main/iniciar.sh -O iniciar.sh; chmod +x iniciar.sh; ./iniciar.sh```
 Em
 Em
 Com esse script você terá um bot de contas SSH grátis e funcional.
