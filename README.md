@@ -16,5 +16,3 @@ __Pacotes nescessarios:__
 Em
 nosso telegrama
 https://t.me/greatvpnpro
-Em
-Em
